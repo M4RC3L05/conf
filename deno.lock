@@ -1,0 +1,33 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/collections@0.224.2": "jsr:@std/collections@0.224.2",
+      "npm:dot-prop@9.0.0": "npm:dot-prop@9.0.0"
+    },
+    "jsr": {
+      "@std/collections@0.224.2": {
+        "integrity": "e77819455294e92d4e7ddad1dbfd46f94174c09318e541e6621fac4a4d0ab326"
+      }
+    },
+    "npm": {
+      "dot-prop@9.0.0": {
+        "integrity": "sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==",
+        "dependencies": {
+          "type-fest": "type-fest@4.18.2"
+        }
+      },
+      "type-fest@4.18.2": {
+        "integrity": "sha512-+suCYpfJLAe4OXS6+PPXjW3urOS4IoP9waSiLuXfLgqZODKw/aWwASvzqE886wA0kQgGy0mIWyhd87VpqIy6Xg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/collections@0.224.2",
+      "npm:dot-prop@9.0.0"
+    ]
+  }
+}
